@@ -1,4 +1,4 @@
-import movie.jpg from assets
+import movie from "./assets/movie.jpg"
 
 function App() {
 
