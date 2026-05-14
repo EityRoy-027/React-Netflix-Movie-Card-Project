@@ -1,4 +1,4 @@
-
+import movie.jpg from assets
 
 function App() {
 
@@ -11,7 +11,9 @@ function App() {
 
   
 
-   <div></div>
+   <div>
+    <img src="movie.jpg" alt="" />
+   </div>
 
 
    </div>
