@@ -18,16 +18,22 @@ function App() {
 
    <div><span>Description:</span>A wild bachelor trip in Las Vegas turns into total chaos.</div>
 
-   <div>
-    <img className="w-[200px] h-[200px]" src={ movie} alt="" />
+   
+   <div className="w-full text-xl">
+    <span className="font-bold ">Year:</span>2009
+    </div>
+
+   <div className="w-full text-xl">
+    <span className="font-bold ">Duration:1h 40min</span>:2009
+    </div>
+  
+
+  <div className="w-full h-[450px]">
+    <img className="w-[400px] h-[400px]" src={ movie} alt="" />
    </div>
 
- 
-   <div><span>Year:</span>2009</div>
-   <div><span>Duration:1h 40min</span>:2009</div>
-  
    
-  <div>
+  <div className="w-full flex gap-4">
 
 
   <button>Play</button>
