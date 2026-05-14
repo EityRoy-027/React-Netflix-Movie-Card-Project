@@ -7,7 +7,9 @@ function App() {
     <>
      
 
-   <div>
+   <div className="h-screen flex justify-start items-center">
+
+   <div className="w-full flex flex-col justify-center items-center gap-8">
 
 
    <div><span>Name</span>:The hangover</div>  
@@ -17,7 +19,7 @@ function App() {
    <div><span>Description:</span>A wild bachelor trip in Las Vegas turns into total chaos.</div>
 
    <div>
-    <img src={ movie} alt="" />
+    <img className="w-[200px] h-[200px]" src={ movie} alt="" />
    </div>
 
  
@@ -33,6 +35,7 @@ function App() {
 
   </div>
 
+   </div>
    </div>
 
 
