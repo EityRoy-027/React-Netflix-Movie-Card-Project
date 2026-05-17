@@ -1,7 +1,8 @@
 import movie from "./assets/movie.jpg"
 
 function App() {
-
+ 
+  let age=16;
 
   return (
     <>
@@ -42,7 +43,7 @@ function App() {
   <div className="w-full flex gap-4">
 
 
-  <button className="px-2 py-2 border-2 bg-blue-100 text-sm text-blue-600 border-blue-600 rounded-4xl">Watch Now</button>
+  <button className="px-2 py-2 border-2 bg-blue-100 text-sm text-blue-600 border-blue-600 rounded-4xl">{age>18? "Watch Now" : "Not Available"}</button>
   <button className="px-6 py-2 border-2 bg-orange-100 text-sm text-orange-600 border-orange-600 rounded-3xl">Info</button>
 
   </div>
