@@ -23,7 +23,7 @@ function App() {
    <div className="w-full text-xl">
     <span className="font-bold">Description:</span>A wild bachelor trip in Las Vegas turns into total chaos.
     </div>
-
+  
    
    <div className="w-full text-xl">
     <span className="font-bold ">Year:</span>2009
@@ -42,8 +42,8 @@ function App() {
   <div className="w-full flex gap-4">
 
 
-  <button>Play</button>
-  <button>Info</button>
+  <button className="px-2 py-2 border-2 bg-blue-100 text-sm text-blue-600 border-blue-600 rounded-4xl">Watch Now</button>
+  <button className="px-6 py-2 border-2 bg-orange-100 text-sm text-orange-600 border-orange-600 rounded-3xl">Info</button>
 
   </div>
 
