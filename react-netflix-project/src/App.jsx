@@ -30,27 +30,34 @@ function App() {
 
    <div className="h-screen flex justify-start items-center">
 
-   <div className="w-full h-[600px] flex flex-col justify-center items-center gap-3 p-8">
+  
+   {
+    series.map((element)=>{
+   
+   return(
+
+
+         <div className="w-full h-[600px] flex flex-col justify-center items-center gap-3 p-8">
 
 
    <div className="w-full text-xl">
-    <span className="font-bold">Name:{series[0].name}</span>
+    <span className="font-bold">Name:{element.name}</span>
     </div>  
 
    <div className="w-full text-xl">
-    <span className="font-bold">Rating </span>:{series[0].rating}
+    <span className="font-bold">Rating </span>:{element.rating}
     </div>
 
    <div className="w-full text-xl">
-    <span className="font-bold">Summary:</span>{series[0].description}
+    <span className="font-bold">Summary:</span>{element.description}
     </div>
 
       <div className="w-full text-xl">
-    <span className="font-bold">Genre:</span>{series[0].genre}
+    <span className="font-bold">Genre:</span>{element.genre}
     </div>
 
     <div className="w-full text-xl">
-    <span className="font-bold">Cast:</span>{series[0].cast}
+    <span className="font-bold">Cast:</span>{element.cast}
     </div>
   
    
@@ -64,7 +71,7 @@ function App() {
   
 
   <div className="w-full h-[450px]">
-    <img className="w-[400px] h-[400px] rounded-md" src={ series[0].img_url} alt="" />
+    <img className="w-[400px] h-[400px] rounded-md" src={ element.img_url} alt="" />
    </div>
 
    
@@ -85,6 +92,15 @@ function App() {
   </div>
 
    </div>
+
+
+   )
+
+
+    })
+   }
+
+
    </div>
 
 
