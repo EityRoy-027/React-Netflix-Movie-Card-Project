@@ -1,4 +1,5 @@
-import movie from "./assets/movie.jpg"
+
+import series from "./api/Series.json"
 
 function App() {
  
@@ -7,7 +8,7 @@ function App() {
 
   //2nd way
   // let Info="Info";
-  // if(age>=18) Info="Review"
+  // if(age>=18) Info="Review";
 
 
   const isAge =()=>{
@@ -53,7 +54,7 @@ function App() {
   
 
   <div className="w-full h-[450px]">
-    <img className="w-[400px] h-[400px] rounded-md" src={ movie} alt="" />
+    <img className="w-[400px] h-[400px] rounded-md"  alt="" />
    </div>
 
    
