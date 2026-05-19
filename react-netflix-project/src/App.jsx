@@ -75,7 +75,7 @@ function App() {
   
 
   <div className="w-full h-[450px]">
-    <img className="w-[400px] h-[400px] rounded-md" src={ element.img_url} alt="" />
+    <img className="w-[400px] h-[400px] rounded-md" src={ element.img_url} alt={element.name} />
    </div>
 
    
@@ -86,7 +86,7 @@ function App() {
 
   <a href={series[0].watch_url} target="_blank" >
 
-  <button className="w-[400px] py-4 border-2 bg-blue-100 text-sm text-blue-600 border-blue-600 rounded-4xl"> Watch Now</button>
+  <button className="w-[400px] py-6 border-2 bg-blue-200  text-blue-600 border-blue-600 rounded-4xl"> Watch Now</button>
 
   </a>
 
