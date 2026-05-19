@@ -3,7 +3,10 @@ import series from "./api/Series.json"
 
 function App() {
  
-  let age=16;
+  let age=19;
+  const name="The Hanover";
+  const rating="7.7/9";
+  const desription="A wild bachelor trip in Las Vegas turns into total chaos.";
 
 
   //2nd way
@@ -32,29 +35,29 @@ function App() {
 
 
    <div className="w-full text-xl">
-    <span className="font-bold">Name:</span>The hangover
+    <span className="font-bold">Name:{name}</span>The hangover
     </div>  
 
    <div className="w-full text-xl">
-    <span className="font-bold">Rating </span>:7.7/10
+    <span className="font-bold">Rating </span>:{rating}
     </div>
 
    <div className="w-full text-xl">
-    <span className="font-bold">Description:</span>A wild bachelor trip in Las Vegas turns into total chaos.
+    <span className="font-bold">Description:</span>{desription}
     </div>
   
    
-   <div className="w-full text-xl">
+   {/* <div className="w-full text-xl">
     <span className="font-bold ">Year:</span>2009
     </div>
 
    <div className="w-full text-xl">
     <span className="font-bold ">Duration:1h 40min</span>
-    </div>
+    </div> */}
   
 
   <div className="w-full h-[450px]">
-    <img className="w-[400px] h-[400px] rounded-md" src={ series[0]} alt="" />
+    <img className="w-[400px] h-[400px] rounded-md" src={ series[0].img_jpg} alt="" />
    </div>
 
    
