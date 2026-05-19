@@ -48,6 +48,10 @@ function App() {
       <div className="w-full text-xl">
     <span className="font-bold">Genre:</span>{series[0].genre}
     </div>
+
+    <div className="w-full text-xl">
+    <span className="font-bold">Cast:</span>{series[0].cast}
+    </div>
   
    
    {/* <div className="w-full text-xl">
