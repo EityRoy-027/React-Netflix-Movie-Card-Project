@@ -57,13 +57,13 @@ function App() {
   
 
   <div className="w-full h-[450px]">
-    <img className="w-[400px] h-[400px] rounded-md" src={ series[0].img_jpg} alt="" />
+    <img className="w-[400px] h-[400px] rounded-md" src={ series[0].img_url} alt="" />
    </div>
 
    
   <div className="w-full flex gap-4">
 
-//1st way
+{/* //1st way */}
   <button className="px-2 py-2 border-2 bg-blue-100 text-sm text-blue-600 border-blue-600 rounded-4xl">{age>18? "Watch Now" : "Not Available"}</button>
   <button className="px-6 py-2 border-2 bg-orange-100 text-sm text-orange-600 border-orange-600 rounded-3xl">{isAge()}</button>
 
