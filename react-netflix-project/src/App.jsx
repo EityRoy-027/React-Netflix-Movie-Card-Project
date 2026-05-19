@@ -28,7 +28,7 @@ function App() {
     <>
      
 
-   <div className="h-screen flex justify-start items-center">
+   <div className="h-screen grid grid-cols-3 place-items-center gap-5 p-8">
 
   
    {
@@ -37,7 +37,11 @@ function App() {
    return(
 
 
-         <div className="w-full h-[600px] flex flex-col justify-center items-center gap-3 p-8">
+ <li key={element.id}>
+
+
+
+ <div className="w-full  flex flex-wrap justify-center items-center gap-3 p-8">
 
 
    <div className="w-full text-xl">
@@ -92,6 +96,9 @@ function App() {
   </div>
 
    </div>
+
+
+ </li>
 
 
    )
