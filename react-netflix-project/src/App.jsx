@@ -26,25 +26,20 @@ function App() {
 
   return (
     <>
+
+   <div className="w-full flex justify-center items-center font-bold text-6xl text-red-600 px-4 py-8">Netflix</div> 
      
-
-   <div className="h-screen  grid grid-cols-3 place-items-center gap-5 p-8">
-
+   <div className="h-screen grid grid-cols-3 place-items-center gap-5 p-8">
    
-   
-
-
    {
-    series.map((element)=>{
+   series.map((element)=>{
    
    return(
 
 
  <li key={element.id}>
 
-<div className="w-full justify-center font-bold text-6xl text-red-600">Netflix</div>
-
- <div className="w-full  flex flex-wrap justify-center items-center gap-3 p-8">
+   <div className="w-full  flex flex-wrap justify-center items-center gap-3 p-8">
 
 
    <div className="w-full text-xl">
