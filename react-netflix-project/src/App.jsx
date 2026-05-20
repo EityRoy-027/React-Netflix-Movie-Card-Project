@@ -28,9 +28,12 @@ function App() {
     <>
      
 
-   <div className="h-screen grid grid-cols-3 place-items-center gap-5 p-8">
+   <div className="h-screen  grid grid-cols-3 place-items-center gap-5 p-8">
 
-  
+   
+   
+
+
    {
     series.map((element)=>{
    
@@ -39,7 +42,7 @@ function App() {
 
  <li key={element.id}>
 
-
+<div className="w-full justify-center font-bold text-6xl text-red-600">Netflix</div>
 
  <div className="w-full  flex flex-wrap justify-center items-center gap-3 p-8">
 
